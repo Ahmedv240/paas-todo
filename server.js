@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
         <meta charset="utf-8" />
       </head>
       <body>
-        <h1>📝 ToDo Web App (Azure PaaS)</h1>
+        <h1>ToDo Liste</h1>
 
         <form method="POST" action="/add">
           <input name="todo" placeholder="Neues ToDo eingeben" required />
